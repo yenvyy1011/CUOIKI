@@ -19,4 +19,5 @@ if($_FILES['f']['error']==0)
     $filetam =$file['tmp_name'];
     move_uploaded_file($filetam,"img/$tenfile");
     echo "<img src='img/$tenfile' width=400> ";
+    echo "Hello ";
 }
